@@ -1,17 +1,25 @@
 const { test, expect } = require('@playwright/test');
+const { LoginPage } = require('../../pages/login.page');
 
-test('valid login should redirect user to inventory page', async ({ page }) => {
+test.beforeEach(async ({ page }) => {
 
   await page.goto('https://www.saucedemo.com/');
 
-  await page.locator('[data-test="username"]').fill('standard_user');
+});
 
-  await page.locator('[data-test="password"]').fill('secret_sauce');
+test('valid login should redirect user to inventory page', async ({ page }) => {
 
-  await page.locator('[data-test="login-button"]').click();
+  const loginPage = new LoginPage(page);
+
+  await loginPage.login(
+    'standard_user',
+    'secret_sauce'
+  );
 
   await expect(page).toHaveURL(/inventory/);
 
-  await expect(page.locator('.inventory_list')).toBeVisible();
+  await expect(
+    page.locator('.inventory_list')
+  ).toBeVisible();
 
 });
