@@ -9,10 +9,6 @@ class LoginPage {
     this.errorMessage = page.locator('[data-test="error"]');
   }
 
-  async goto() {
-    await this.page.goto('https://www.saucedemo.com/');
-  }
-
   async login(username, password) {
     await this.usernameInput.fill(username);
 
