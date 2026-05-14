@@ -45,48 +45,39 @@ qa-saucedemo-restfulbooker
 
 ## UI Testing — SauceDemo
 
-- Login com diferentes tipos de usuários  
-- Login with different user types
+```
+- Login com diferentes tipos de usuários - Login with different user types
 
-- Ordenação e filtragem de produtos  
-- Product sorting and filtering
+- Ordenação e filtragem de produtos - Product sorting and filtering
 
-- Fluxo completo de compra  
-- Complete checkout flow
+- Fluxo completo de compra - Complete checkout flow
 
-- Remoção de itens do carrinho  
-- Cart item removal
+- Remoção de itens do carrinho - Cart item removal
 
-- Navegação entre páginas  
-- Navigation between pages
+- Navegação entre páginas - Navigation between pages
 
-- Logout  
 - Logout
 
-- Testes de responsividade  
-- Responsiveness testing
+- Testes de responsividade - Responsiveness testing
 
-- Testes de acessibilidade  
-- Accessibility testing
+- Testes de acessibilidade - Accessibility testing
+```
 
 ---
 
 ## API Testing — Restful-Booker
 
-- Autenticação  
-- Authentication
+```
+- Autenticação - Authentication
 
-- CRUD de reservas  
-- Booking CRUD operations
+- CRUD de reservas - Booking CRUD operations
 
-- Validação de campos obrigatórios  
-- Required field validation
+- Validação de campos obrigatórios - Required field validation
 
-- Tratamento de erros  
-- Error handling
+- Tratamento de erros - Error handling
 
-- Filtros e buscas  
-- Filters and search operations
+- Filtros e buscas - Filters and search operations
+```
 
 ---
 
@@ -104,8 +95,11 @@ qa-saucedemo-restfulbooker
 
 # Evidências — Evidences
 
+```
 As evidências dos testes estão disponíveis nas pastas:
+
 The test evidences are available in the folders:
+```
 
 - `evidences/`
 - `reports/`
