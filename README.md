@@ -3,13 +3,6 @@
 Este projeto demonstra práticas de testes manuais e automatizados aplicadas a uma aplicação web e uma API REST.  
 This project demonstrates manual and automated testing practices applied to a web application and a REST API.
 
-## 📸 Preview
-![Documentation preview restful booker](preview/create-booking.png)
-![Documentation preview cases sauce demo](preview/test-cases.png)
-
-# Fluxo automatizado saucedemo(GIF)
-![E2E Flow](preview/automated-sauce.gif)
-
 Aplicações testadas — Tested applications
 
 - SauceDemo: https://www.saucedemo.com  
@@ -19,6 +12,19 @@ Aplicações testadas — Tested applications
 
 Simular o trabalho de um analista de QA através da criação de documentação de testes, execução de cenários funcionais, automação de testes e registro de bugs encontrados.  
 Simulate the work of a QA analyst by creating test documentation, executing functional scenarios, automating tests, and reporting discovered bugs.
+
+---
+
+## 📸 Preview
+
+### Preview restful booker api
+![Documentation preview restful booker](preview/create-booking.png)
+
+### Preview sauce demo cases
+![Documentation preview cases sauce demo](preview/test-cases.png)
+
+# Fluxo automatizado saucedemo(GIF)
+![E2E Flow](preview/automated-sauce.gif)
 
 ---
 
