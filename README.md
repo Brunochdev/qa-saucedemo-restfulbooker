@@ -3,7 +3,14 @@
 Este projeto demonstra práticas de testes manuais e automatizados aplicadas a uma aplicação web e uma API REST.  
 This project demonstrates manual and automated testing practices applied to a web application and a REST API.
 
-Aplicações testadas — Tested applications:
+## 📸 Preview
+![Documentation preview restful booker](preview/create-booking.png)
+![Documentation preview cases sauce demo](preview/test-cases.png)
+
+# Fluxo automatizado saucedemo(GIF)
+![E2E Flow](preview/automated-sauce.gif)
+
+Aplicações testadas — Tested applications
 
 - SauceDemo: https://www.saucedemo.com  
 - Restful-Booker: https://restful-booker.herokuapp.com/apidoc/index.html
@@ -101,8 +108,7 @@ npx playwright show-report
 
 ## API Testing
 
-Importe a collection e environment do Postman localizados em: 
-Import the Postman collection and environment files located in:
+Importe a collection e environment do Postman localizados em - Import the Postman collection and environment files located in
 
 * `api-testing/collections/`
 * `api-testing/environments/`
@@ -126,9 +132,7 @@ Run the requests using Postman.
 # Evidências — Evidences
 
 ```
-As evidências dos testes estão disponíveis nas pastas:
-
-The test evidences are available in the folders:
+As evidências dos testes estão disponíveis nas pastas - The test evidences are available in the folders
 ```
 
 - `evidences/`
@@ -138,14 +142,10 @@ The test evidences are available in the folders:
 
 ## Observações Técnicas — Technical Notes
 
-### Português
 Parte da automação foi refatorada utilizando Page Object Pattern e boas práticas de organização de testes para demonstrar conhecimento em reutilização, manutenção e escalabilidade da automação.
-
 Outros testes foram mantidos em estrutura mais direta propositalmente, visando demonstrar diferentes abordagens de implementação e manter o foco na cobertura funcional do desafio.
 
-### English
 Part of the automation was refactored using the Page Object Pattern and test organization best practices to demonstrate knowledge of reusability, maintainability and automation scalability.
-
 Other tests were intentionally kept in a more direct structure in order to demonstrate different implementation approaches while maintaining focus on the functional coverage of the challenge.
 
 ---
