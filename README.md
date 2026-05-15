@@ -81,6 +81,37 @@ qa-saucedemo-restfulbooker
 
 ---
 
+# Como Executar — How to Run
+
+## UI Automated Tests
+
+```bash
+cd ui-testing/automated-tests
+
+npm install
+
+npx playwright test
+```
+
+## Open Playwright HTML Report
+
+```bash
+npx playwright show-report
+```
+
+## API Testing
+
+Importe a collection e environment do Postman localizados em: 
+Import the Postman collection and environment files located in:
+
+* `api-testing/collections/`
+* `api-testing/environments/`
+
+Rode as requestes usando Postman.
+Run the requests using Postman.
+
+---
+
 # Tecnologias Utilizadas — Technologies Used
 
 ## UI Testing
@@ -89,7 +120,6 @@ qa-saucedemo-restfulbooker
 
 ## API Testing
 - Postman
-- Newman
 
 ---
 
@@ -103,6 +133,30 @@ The test evidences are available in the folders:
 
 - `evidences/`
 - `reports/`
+
+---
+
+## Observações Técnicas — Technical Notes
+
+### Português
+Parte da automação foi refatorada utilizando Page Object Pattern e boas práticas de organização de testes para demonstrar conhecimento em reutilização, manutenção e escalabilidade da automação.
+
+Outros testes foram mantidos em estrutura mais direta propositalmente, visando demonstrar diferentes abordagens de implementação e manter o foco na cobertura funcional do desafio.
+
+### English
+Part of the automation was refactored using the Page Object Pattern and test organization best practices to demonstrate knowledge of reusability, maintainability and automation scalability.
+
+Other tests were intentionally kept in a more direct structure in order to demonstrate different implementation approaches while maintaining focus on the functional coverage of the challenge.
+
+---
+
+# Principais Descobertas — Main Findings
+
+* A API aceita campos vazios durante a criação de reservas. - The API accepts empty booking fields during reservation creation.
+
+* Payloads inválidos podem gerar respostas Internal Server Error. - Invalid payloads may generate Internal Server Error responses.
+
+* Problemas de acessibilidade foram identificados durante testes de navegação por teclado. - Accessibility issues were identified during keyboard navigation tests.
 
 ---
 
